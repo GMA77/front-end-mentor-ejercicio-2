@@ -1,0 +1,129 @@
+body{
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(/images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+   
+}
+.main-container{
+    position: relative;
+    margin:auto;
+    width: 280px;
+    background-color: #fff;
+    border-radius: 30px;
+    
+
+}
+.main-container .image-top{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px 30px 0 0;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+.mid-container p{
+    color:hsl(224, 23%, 55%);
+    font-size: 16px;
+    font-weight: 500;
+
+
+}
+
+
+.plan-container{
+    display: flex;
+    flex-direction: row;
+    width:90%;
+    height: 30%;
+    margin: auto;
+    border-radius: 10px;
+    justify-content:space-evenly;
+    align-items:center;
+    background-color: rgb(233, 233, 233);
+    font-size: 13px;
+}
+
+.box-1{
+    position: relative;
+    right:20px;
+}
+.box-2{
+    position: relative;
+    right: 25px;
+    
+}
+.box-2 h3{
+    margin:10px 0 10px 0;
+    padding: 0;
+}
+.box-2 p{
+    
+    margin:0px 0 10px 0;
+    padding: 0;
+    color:hsl(224, 23%, 55%);
+
+}
+.box-3 a{
+    color:rgb(0, 0, 153);
+    font-weight: 700;
+}
+
+.payment-container{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-around;
+}
+
+.top-btn{
+    height: 2rem;
+    width: 90%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border: none;
+    border-radius: 10px;
+    background-color: blue;
+    color: #fff;
+    font-weight: 400;
+    cursor: pointer;
+}
+.top-btn:hover{
+    opacity: 0.6;
+
+}
+
+.bot-btn{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    height: 2rem;
+    width: 90%;
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+    color:hsl(224, 23%, 55%);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.bot-btn:hover{
+    color:hsl(223, 47%, 23%);
+}
+
+@media screen and (min-width:375px) {
+
+
+
+    body{
+        background-image: url(/images/pattern-background-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+       
+
+    }
+    
+}
